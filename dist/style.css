@@ -1,0 +1,58 @@
+.margin-control {
+  width: 65%;
+  margin-top: 20%;
+}
+.custom-img {
+  height: 80vh;
+}
+
+.margin-control h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  color: #444444;
+  letter-spacing: 2px;
+}
+.margin-control h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #444444;
+  letter-spacing: 3px;
+}
+.margin-control button {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.btn-custom {
+  color: #ffffff;
+  background-color: #00acf1;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+.btn-custom:hover {
+  color: #ffffff;
+  background-color: #00acf1;
+}
+
+/* Circle Text */
+#rotated {
+  font-size: 10vmin;
+  font-family: "cousine", monospace;
+  text-transform: uppercase;
+  animation: spin 12s linear infinite;
+  color: #000000;
+  border-radius: 999px 999px 0 0;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+}
