@@ -1,0 +1,239 @@
+.gradiant-image {
+    background-image: linear-gradient(to top right, #BFEAFB, #FFFFFF, #E4DDFE 10%);
+}
+
+.container-section {
+    width     : 100%;
+    min-height: 100vh;
+}
+
+.header {
+    min-height      : 5vh;
+    background-color: black;
+}
+
+.main-section {
+    min-height: 90vh;
+}
+
+.hero-section {
+    display   : flex;
+    min-height: 70vh;
+}
+
+.semi-circle {
+    min-height: 20vh;
+}
+
+.text-content {
+    width      : 50%;
+    margin-left: 10%;
+}
+
+.text-content h2 {
+    margin-top    : 25%;
+    font-family   : "Poppins", sans-serif;
+    font-size     : 40px;
+    font-weight   : 300;
+    font-style    : normal;
+    color         : #444444;
+    letter-spacing: 2px;
+}
+
+.text-content h1 {
+    font-family   : "Raleway", sans-serif;
+    font-size     : 6rem;
+    font-weight   : 700;
+    font-style    : normal;
+    color         : #444444;
+    letter-spacing: 2px;
+}
+
+.text-content button {
+    font-family     : "Raleway", sans-serif;
+    font-size       : 20px;
+    font-weight     : 600;
+    font-style      : normal;
+    letter-spacing  : 2px;
+    margin-top      : 1rem;
+    background-color: #00acf1;
+    margin-left     : 10px;
+    margin-right    : 10px;
+}
+
+.text-content button:hover {
+    color           : #ffffff;
+    background-color: #00acf1;
+}
+
+.hero-section .img-content {
+    width: 50%;
+}
+
+.footer {
+    min-height      : 5vh;
+    background-color: black;
+}
+
+/* Media quary */
+@media screen and (max-width: 1000px) {
+    .text-content h1 {
+        font-size  : 5rem;
+        margin-left: -10%;
+        transition : all 0.5s;
+    }
+
+    .text-content h2 {
+        font-size  : 40px;
+        margin-left: -10%;
+        transition : all 0.5s;
+    }
+
+    .text-content button {
+        font-size  : 25px;
+        margin-left: -10%;
+        transition : all 0.5s;
+    }
+
+    .header {
+        height    : 10vh;
+        transition: all 0.5s;
+    }
+
+    .main-section {
+        min-height: 60vh;
+        transition: all 0.5s;
+    }
+
+    .hero-section {
+        min-height: 60vh;
+        transition: all 0.5s;
+    }
+
+    .footer {
+        height    : 10vh;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .text-content h1 {
+        font-size  : 4rem;
+        margin-left: -15%;
+        transition : all 0.5s;
+    }
+
+    .text-content h2 {
+        font-size  : 30px;
+        margin-left: -15%;
+        transition : all 0.5s;
+    }
+
+    .text-content button {
+        font-size  : 20px;
+        margin-left: -15%;
+        transition : all 0.5s;
+    }
+
+    .header {
+        height    : 15vh;
+        transition: all 0.5s;
+    }
+
+    .main-section {
+        min-height: 50vh;
+        transition: all 0.5s;
+    }
+
+    .hero-section {
+        min-height: 50vh;
+        transition: all 0.5s;
+    }
+
+    .footer {
+        height    : 15vh;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .text-content h1 {
+        font-size  : 3rem;
+        margin-left: -15%;
+        transition : all 0.5s;
+    }
+
+    .text-content h2 {
+        font-size  : 25px;
+        margin-left: -15%;
+        transition : all 0.5s;
+    }
+
+    .text-content button {
+        font-size  : 16px;
+        margin-left: -15%;
+        transition : all 0.5s;
+    }
+
+    .header {
+        height    : 20vh;
+        transition: all 0.5s;
+    }
+
+    .main-section {
+        min-height: 40vh;
+        transition: all 0.5s;
+    }
+
+    .hero-section {
+        min-height: 40vh;
+        transition: all 0.5s;
+    }
+
+    .footer {
+        height    : 20vh;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-content h1 {
+        font-size  : 3rem;
+        margin-left: -20%;
+        transition : all 0.5s;
+    }
+
+    .text-content h2 {
+        font-size  : 20px;
+        margin-left: -20%;
+        transition : all 0.5s;
+    }
+
+    .text-content button {
+        font-size  : 14px;
+        margin-left: -20%;
+        transition : all 0.5s;
+    }
+
+    .header {
+        height    : 24vh;
+        transition: all 0.5s;
+    }
+
+    .main-section {
+        min-height: 26vh;
+        transition: all 0.5s;
+    }
+
+    .hero-section {
+        min-height: 26vh;
+        transition: all 0.5s;
+    }
+
+    .footer {
+        height    : 24vh;
+        transition: all 0.5s;
+    }
+}
+
+/* Circle Text */

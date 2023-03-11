@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- Font family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="dist/bootstrap.min.css" />
-    <link rel="stylesheet" href="dist/style.css" />
-    <title>Animated CSS & JS</title>
-  </head>
-  <body>
-    <!-- font-family: 'Poppins', sans-serif; -->
-    <!--font-family: 'Raleway', sans-serif; -->
-    <div class="container-fluid d-flex">
-      <div class="col-md-6 col-sm-6 mt-4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="dist/bootstrap.min.css" />
+  <link rel="stylesheet" href="dist/style.css" />
+  <title>Animated CSS & JS</title>
+</head>
+
+<body>
+  <section class="container-section">
+
+    <div class="container-fluid d-flex mt-4">
+      <div class="col-md-6 col-sm-6 mt-4  mt-5">
         <div class="container margin-control">
           <h2>Become A</h1>
-          <h1>JS Ninja</h1>
-          <button class="btn btn-custom">Kill the Web</button>
+            <h1>JS Ninja</h1>
+            <button class="btn btn-custom">Kill the Web</button>
         </div>
       </div>
 
       <!-- Image are -->
-      <div class="col-md-6 col-sm-6 mt-4">
+      <div class="col-md-6 col-sm-6 mt-4  mt-5">
         <div class="container">
-          <img
-            src="assets/images/hero-image.png"
-            class="img-fluid custom-img"
-          />
+          <img src="assets/images/hero-image.png" id="hero-image" class="img-fluid custom-img" />
         </div>
       </div>
     </div>
 
     <div class="container-fluid">
-       <div class="container">
-       <div class="col-md-12">
-        <div id="rotated">
-            <p>React    Node   CSS    Next    Express   Nest   HTML   GSAP   3.JS  SASS </marquee>
+      <div class="container">
+        <div class="col-md-12">
+          <div id="rotated"> -->
+            <marquee class="circle-text">React Node CSS Next Express Nest HTML GSAP 3.JS SASS </marquee>
+          </div>
         </div>
-       </div>
-       </div>
+      </div>
     </div>
+  </section>
 
-<!-- Circel Text JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+  <!-- Circel Text JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
 
-<script>
+  <script>
     let rotated = new CircleType(document.getElementById('rotated'));
     rotated.raduis(360);
-</script>
+  </script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
-  </body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
 </html>

@@ -1,58 +1,106 @@
+.container-section {
+  width           : 100%;
+  height          : 100vh;
+  background-color: #00acf1;
+}
+
 .margin-control {
-  width: 65%;
+  width     : 65%;
   margin-top: 20%;
 }
+
 .custom-img {
-  height: 80vh;
+  height: 655px;
 }
 
 .margin-control h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 300;
-  font-style: normal;
-  color: #444444;
+  font-family   : "Poppins", sans-serif;
+  font-size     : 40px;
+  font-weight   : 300;
+  font-style    : normal;
+  color         : #444444;
   letter-spacing: 2px;
 }
+
 .margin-control h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 6rem;
-  font-weight: 700;
-  font-style: normal;
-  color: #444444;
+  font-family   : "Poppins", sans-serif;
+  font-size     : 5rem;
+  font-weight   : 700;
+  font-style    : normal;
+  color         : #444444;
   letter-spacing: 3px;
 }
+
 .margin-control button {
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  font-style: normal;
+  font-family   : "Raleway", sans-serif;
+  font-size     : 1rem;
+  font-weight   : 600;
+  font-style    : normal;
   letter-spacing: 1px;
 }
+
 .btn-custom {
-  color: #ffffff;
+  color           : #ffffff;
   background-color: #00acf1;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 2rem;
+  padding-left    : 2rem;
+  padding-right   : 2rem;
+  margin-top      : 2rem;
 }
+
 .btn-custom:hover {
-  color: #ffffff;
+  color           : #ffffff;
   background-color: #00acf1;
 }
 
 /* Circle Text */
 #rotated {
-  font-size: 10vmin;
-  font-family: "cousine", monospace;
+  font-size     : 7vmin;
+  font-family   : "Poppins", sans-serif;
   text-transform: uppercase;
-  animation: spin 12s linear infinite;
-  color: #000000;
-  border-radius: 999px 999px 0 0;
+  animation     : spin 12s linear infinite;
+  color         : #000000;
+  border-radius : 999px 999px 0 0;
+  font-weight   : 200;
+  letter-spacing: 1px;
 }
+
 
 @keyframes spin {
   0% {
     transform: rotate(360deg);
+  }
+}
+
+/* Media quary */
+@media screen and (min-width: 600px) {
+  .container-section {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container-section {
+    background-color: rgb(234, 218, 126);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .margin-control h2 {
+    font-size  : 25px;
+    font-weight: 300;
+  }
+
+  .margin-control h1 {
+    font-size  : 2rem;
+    font-weight: 700;
+  }
+
+  .margin-control button {
+    font-size  : 12px;
+    font-weight: 400;
+  }
+
+  .custom-img {
+    height: 300px;
   }
 }
